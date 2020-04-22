@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    background-color: blue;
+    margin: auto;
+}
+
+.inputArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputArea input {
+    width: 30%;
+    margin-top: 5%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.inputArea button {
+    width: 10%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.container .top {
+    height: 50%;
+    display: flex;
+    align-items: left;
+   justify-content: center;
+   font-size: 1.2rem;
+
+}
+
+.text {
+    display: flex;
+    margin: 5%;
+    flex-direction: column;
+}
+
