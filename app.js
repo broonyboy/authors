@@ -20,7 +20,7 @@ function app() {
             });
     }
 
-    function clearList() {
+    function clearList(){
         text.innerHTML = "";
     }
 
